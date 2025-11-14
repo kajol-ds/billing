@@ -1,0 +1,26 @@
+{
+  "name": "budventure/billing",
+  "description": "Billing package for Laravel SaaS Starter (Stripe, webhooks, ping).",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["laravel", "billing", "stripe", "saas"],
+  "authors": [
+    {"name": "Budventure", "email": "dev@budventure.technology"}
+  ],
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0 || ^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Budventure\\\\Billing\\\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Budventure\\\\Billing\\\\Providers\\\\BillingServiceProvider"
+      ]
+    }
+  }
+}
