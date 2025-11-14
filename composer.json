@@ -22,7 +22,7 @@
       "dev-main": "0.1.x-dev"
     }
   }
-}
+},
   "extra": {
     "laravel": {
       "providers": [
