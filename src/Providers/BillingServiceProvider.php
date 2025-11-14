@@ -13,7 +13,7 @@ class BillingServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        // Example: publish config or load routes later.
-        // $this->loadRoutesFrom(__DIR__ . '/../Routes/api.php');
+        // Load package routes so /api/billing/ping exists
+        $this->loadRoutesFrom(__DIR__ . '/../Routes/api.php');
     }
 }
