@@ -13,13 +13,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Budventure\\\\Billing\\\\": "src/"
+      "Budventure\\Billing\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Budventure\\\\Billing\\\\Providers\\\\BillingServiceProvider"
+        "Budventure\\Billing\\Providers\\BillingServiceProvider"
       ]
     }
   } 
