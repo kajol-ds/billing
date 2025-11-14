@@ -16,13 +16,6 @@
       "Budventure\\\\Billing\\\\": "src/"
     }
   },
-{
-  "extra": {
-    "branch-alias": {
-      "dev-main": "0.1.x-dev"
-    }
-  }
-},
   "extra": {
     "laravel": {
       "providers": [
